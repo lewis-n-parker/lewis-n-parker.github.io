@@ -329,7 +329,6 @@ html {
   html section:nth-child(even) {
     background: #535455; }
   html .wrapper {
-    border: 2px solid magenta;
     max-width: 1140px;
     width: 79.5%;
     margin: 0 auto;
