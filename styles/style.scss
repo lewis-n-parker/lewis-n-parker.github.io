@@ -57,11 +57,15 @@ html {
 			background: $primary;
 		}
 		.wrapper {
-			// border: 2px solid magenta;
+			border: 2px solid magenta;
 			max-width: 1140px;
 			width: 79.5%;
 			margin: 0 auto;
 			padding: 66px 8.3%;
+			@media screen and (max-width: 940px) {
+				padding: 30px 30px;
+			}
+		}
 			.pageHeader {
 					display: flex;
 					flex-wrap: wrap;
@@ -103,12 +107,12 @@ html {
 			.show.menu {
 				display: block;
 			}
-			@media all and (max-width: 850px) {
+			@media all and (max-width: 768px) {
 				.hamburger,
 				.exitResponsive {
 					display: block;
 					font-size: 40px;
-					margin: 20px 50px;
+					margin:  10px;
 					color: $white;
 					text-align: right;
 				}
@@ -179,6 +183,10 @@ html {
 				justify-content: space-between;
 				align-items: center;
 				margin-top: 66px;
+				@media screen and (max-width: 940px) {
+					flex-direction: column;
+					margin: 0 auto;
+				}
 			}
 			.headerText {
 				// border: 1px solid pink;
@@ -186,6 +194,13 @@ html {
 			}
 			.headshot {
 				width: 40%;
+				@media screen and (max-width: 940px) {
+					width: 50%;
+					margin-top: 50px;
+				}
+				@media screen and (max-width: 768px) {
+					width: 70%;
+				}
 				img {
 					border-radius: 50%
 				}
@@ -335,7 +350,8 @@ html {
 
 			}
 		}
-	}
+	
+	
 			
 		
 
