@@ -336,6 +336,9 @@ html {
     @media screen and (max-width: 940px) {
       html .wrapper {
         padding: 30px 30px; } }
+    @media screen and (max-width: 480px) {
+      html .wrapper {
+        padding: 10px; } }
   html .pageHeader {
     display: -webkit-box;
     display: -ms-flexbox;

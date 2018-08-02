@@ -65,6 +65,9 @@ html {
 			@media screen and (max-width: 940px) {
 				padding: 30px 30px;
 			}
+			@media screen and (max-width: 480px) {
+				padding: 10px;
+			}
 		}
 			.pageHeader {
 					display: flex;
