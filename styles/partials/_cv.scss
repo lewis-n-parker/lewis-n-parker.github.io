@@ -4,11 +4,20 @@ body.cv {
 	h1, h2, h3, h4 {
 		color: $black;
 	}
+	ul.skillsList,
+	ul.education,
+	ul.dateList {
+		display: list-item;
+	}
+	.toTop {
+		margin: 50px auto 0;
+	}
 }
 .resumeHeader {
 	min-height: 10vh;
 }
-.skillsSummary {
+.skillsSummary,
+.toTop {
 	line-height: 2;
 	h2 {
 		text-transform: uppercase;
@@ -39,15 +48,16 @@ body.cv {
 			margin-left: 10px;
 		}
 	}
-	ul.contactInfo {
-		display: flex;
-		li {
-			margin-right: 20px;
-		}
+}	
+ul.contactInfo {
+	display: flex;
+	flex-direction: row;
+	li {
+		margin-right: 20px;
 	}
-	ul.education {
+}
+ul.education {
 
-	}
 }
 .icons {
 	display: flex;
@@ -91,8 +101,4 @@ body.cv {
 		}
 	}
 }
-.toTop {
-	margin: 50px auto 0;
-	text-align: center;
 
-}
