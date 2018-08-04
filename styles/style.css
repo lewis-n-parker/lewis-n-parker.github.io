@@ -242,7 +242,13 @@ ul.contactInfo {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row; }
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #323232; }
   ul.contactInfo li {
     margin-right: 20px; }
   @media (max-width: 480px) {
