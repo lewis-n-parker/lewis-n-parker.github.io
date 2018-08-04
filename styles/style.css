@@ -245,6 +245,16 @@ ul.contactInfo {
   flex-direction: row; }
   ul.contactInfo li {
     margin-right: 20px; }
+  @media (max-width: 480px) {
+    ul.contactInfo {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      margin-bottom: 20px; } }
 
 .icons {
   display: -webkit-box;
@@ -261,6 +271,10 @@ ul.contactInfo {
     width: 10%;
     text-align: center;
     color: black; }
+    @media (max-width: 768px) {
+      .icons .icon {
+        width: 50%;
+        margin-top: 20px; } }
     .icons .icon p {
       margin: 0;
       padding: 0;
@@ -508,9 +522,6 @@ h2 > span {
 
 .headshot {
   width: 40%; }
-  @media screen and (max-width: 768px) {
-    .headshot {
-      width: 70%; } }
   .headshot img {
     border-radius: 50%; }
 
@@ -662,7 +673,7 @@ footer {
     width: 50%;
     margin-top: 50px; }
   .wrapper {
-    padding: 30px 0;
+    padding: 20px 0;
     width: 90%; }
   .innerWrapper {
     -webkit-box-orient: vertical;
@@ -677,7 +688,7 @@ footer {
   .content {
     width: 70%; }
   .headshot {
-    width: 70%; }
+    width: 85%; }
   .skills {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -708,4 +719,11 @@ footer {
     -ms-flex-pack: center;
     justify-content: center; }
   .headshot {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .footerBottom {
+    padding: 25px; }
+    .footerBottom a {
+      margin: 10px;
+      padding: 10px; }
+  .cv h1 {
+    margin-bottom: 15px; } }

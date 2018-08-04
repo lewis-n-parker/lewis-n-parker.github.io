@@ -208,9 +208,9 @@ h2 > span {
 	// 	width: 50%;
 	// 	margin-top: 50px;
 	// }
-	@media screen and (max-width: 768px) {
-		width: 70%;
-	}
+	// @media screen and (max-width: 768px) {
+	// 	width: 70%;
+	// }
 	img {
 		border-radius: 50%
 	}
@@ -359,7 +359,7 @@ footer {
 		margin-top: 50px;
 	}
 	.wrapper {
-		padding: 30px 0;
+		padding: 20px 0;
 		width: 90%;
 	}
 	.innerWrapper {
@@ -375,7 +375,7 @@ footer {
 		width: 70%;
 	}
 	.headshot {
-		width: 70%;
+		width: 85%;
 	}
 	.skills {
 		align-items: center;
@@ -406,6 +406,16 @@ footer {
 	}
 	.headshot {
 		margin-top: 10px;
+	}
+	.footerBottom {
+		padding: 25px;
+		a {
+			margin: 10px;
+			padding: 10px;
+		}
+	}
+	.cv h1 {
+		margin-bottom: 15px;
 	}
 }
 
