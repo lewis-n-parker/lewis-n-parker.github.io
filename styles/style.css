@@ -251,7 +251,7 @@ ul.contactInfo {
   color: #323232; }
   ul.contactInfo li {
     margin-right: 20px; }
-  @media (max-width: 480px) {
+  @media (max-width: 650px) {
     ul.contactInfo {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -705,7 +705,9 @@ footer {
     flex-direction: column; }
   .gallery {
     width: 80%;
-    margin: 20px auto; } }
+    margin: 20px auto; }
+  .cv h1 {
+    margin-bottom: 15px; } }
 
 @media (max-width: 480px) {
   .headerText {
@@ -730,6 +732,4 @@ footer {
     padding: 25px; }
     .footerBottom a {
       margin: 10px;
-      padding: 10px; }
-  .cv h1 {
-    margin-bottom: 15px; } }
+      padding: 10px; } }
