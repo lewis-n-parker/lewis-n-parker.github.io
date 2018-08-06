@@ -414,8 +414,8 @@ section:nth-child(even) {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 225px;
-  margin: 0 auto 6%;
+  width: 230px;
+  margin: 0 auto 5%;
   position: relative; }
   .pageHeader .line {
     display: -webkit-box;
@@ -546,54 +546,25 @@ h2 > span {
   justify-content: space-around; }
 
 .content {
-  width: 275px;
-  height: 275px;
+  width: 33.33%;
   background: #E1E1E1;
   text-align: center;
   letter-spacing: 0.1em;
   padding: 10px;
-  margin-top: 20px;
-  position: relative;
-  -webkit-perspective: 800px;
-  perspective: 800px; }
+  margin-top: 20px; }
   .content h3 {
     margin-top: 15px; }
-
-.front,
-.back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 15px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.8s;
-  transition: -webkit-transform 0.8s;
-  -o-transition: transform 0.8s;
-  transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s; }
-
-.back {
-  background: #94d7e6;
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg); }
-  .back a {
+  .content a {
     text-decoration: none;
     color: #535455;
     font-weight: 600; }
-  .back a:hover {
+  .content a:hover {
     color: #323232;
     font-weight: 700; }
 
-.content:hover .front {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg); }
-
-.content:hover .back {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg); }
+.feature {
+  background: #94d7e6;
+  border: 1px outset #535455; }
 
 .portfolio {
   color: #E1E1E1; }

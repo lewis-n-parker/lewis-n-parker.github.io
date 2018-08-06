@@ -56,31 +56,19 @@
 				</div>
 				<div class="skills">
 					<div class="content">
-						<div class="front">
-							<i class="fas fa-desktop fa-5x"></i>
-							<h3>Web Development</h3>
-						</div>
-						<div class="back">
-							<p>Using HTML5, CSS3, SASS and jQuery best practices, I bring professional website designs to life. <a href="#contact">Get in touch</a> to find out how I can help bring your idea to life!</p>
-						</div>
+						<i class="fas fa-desktop fa-5x"></i>
+						<h3>Web Development</h3>
+						<p>Using HTML5, CSS3, SASS and jQuery best practices, I bring professional website designs to life. <a href="#contact">Get in touch</a> to find out how I can help bring your idea to life!</p>
 					</div>
 					<div class="content">
-						<div class="front">
-							<i class="fas fa-mobile-alt fa-5x"></i>
-							<h3>Responsive and Accessible Design</h3>
-						</div>
-						<div class="back">
-							<p>It's important that your site looks and feels great whether you're browsing from your phone, tablet, or laptop, and that it's accessible to all users. I can help you with that.</p>
-						</div>
+						<i class="fas fa-mobile-alt fa-5x"></i>
+						<h3>Responsive and Accessible Design</h3>
+						<p>It's important that your site looks and feels great whether you're browsing from your phone, tablet, or laptop, and that it's accessible to all users. I can help you with that.</p>
 					</div>
 					<div class="content">
-						<div class="front">
-							<i class="far fa-chart-bar fa-5x"></i>
-							<h3>Web Analytics</h3>
-						</div>
-						<div class="back">
-							<p>Using Google Analytics, I can help your business make the most of its online prescence by identifying areas for improvement in your site's design in order to turn visitors into customers.</p>
-						</div>
+						<i class="far fa-chart-bar fa-5x"></i>
+						<h3>Web Analytics</h3>
+						<p>Using Google Analytics, I can help your business make the most of its online prescence by identifying areas for improvement in your site's design in order to turn visitors into customers.</p>
 					</div>
 				</div>
 			</div>
@@ -153,6 +141,10 @@
       	$('.exitResponsive').on('click', function() {
 		   		$('.menu').toggleClass('show');
 		   	});
+      	$('div.content').click(function() {
+      	  $('.feature').removeClass('feature');
+      	  $(this).toggleClass('feature');
+      	});
     });
 </script>
 </body>
